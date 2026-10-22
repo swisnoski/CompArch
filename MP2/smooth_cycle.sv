@@ -11,7 +11,7 @@
 
 `include "pwm.sv"
 
-module top(
+module smooth_cycle(
     input logic     clk,    // this is the clock
     output logic    RGB_B,  // blue LED 
     output logic    RGB_R,  // red LED
